@@ -4,9 +4,9 @@ export function AboutSection() {
   return (
     <section id="about" className="section-padding bg-background" aria-label="About our store">
       <div className="container-luxury">
-        <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="flex flex-col-reverse md:flex-row gap-12 lg:gap-20 items-center">
           {/* Image */}
-          <div className="reveal relative group">
+          <div className="w-full md:w-1/2 reveal relative group">
             <div className="absolute -inset-3 bg-gradient-gold opacity-10 rounded-3xl blur-xl group-hover:opacity-20 transition-opacity duration-500" />
             <div className="relative overflow-hidden rounded-sm shadow-luxury">
               <img
@@ -24,7 +24,7 @@ export function AboutSection() {
           </div>
 
           {/* Text */}
-          <div className="reveal stagger flex flex-col gap-6">
+          <div className="w-full md:w-1/2 reveal stagger flex flex-col gap-6">
             <div className="flex flex-col">
               <span className="text-gold font-body text-sm tracking-[0.3em] uppercase font-medium">Our Story</span>
               <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-3 leading-tight gold-underline">

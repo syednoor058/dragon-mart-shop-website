@@ -16,17 +16,11 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden py-20"
+      className="relative lg:min-h-screen flex items-center justify-center overflow-hidden py-20"
       aria-label="Hero section"
     >
-      {/* Background image */}
+      {/* Background video */}
       <div className="absolute inset-0 z-0">
-        {/* <img
-          src={heroBg}
-          alt="Luxury fashion accessories – bags, watches, sneakers on marble"
-          className="w-full h-full object-cover"
-          fetchPriority="high"
-        /> */}
         <video src="https://res.cloudinary.com/de8g5laai/video/upload/v1771427919/Untitled_design_xjge0h.mp4" className="w-full h-full object-cover" muted autoPlay loop />
         <div className="absolute inset-0 bg-gradient-to-b from-primary/85 via-primary/70 to-primary/90" />
         <div className="absolute inset-0 bg-gradient-radial-gold" />
@@ -54,7 +48,7 @@ export function HeroSection() {
 
         {/* Subheadline */}
         <p
-          className="font-body text-lg md:text-xl text-primary-foreground/75 max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up"
+          className="font-body text-lg md:text-xl text-primary-foreground/75 max-w-4xl mx-auto mb-10 leading-relaxed animate-fade-up"
           style={{ animationDelay: "0.35s" }}
         >
           Dubai's favourite destination for premium fashion accessories —
@@ -64,7 +58,7 @@ export function HeroSection() {
 
         {/* CTAs */}
         <div
-          className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 animate-fade-up"
+          className="flex flex-wrap items-center justify-center gap-4 mb-8 animate-fade-up"
           style={{ animationDelay: "0.5s" }}
         >
           <a

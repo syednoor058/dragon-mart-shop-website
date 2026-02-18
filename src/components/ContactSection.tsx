@@ -64,8 +64,8 @@ export function ContactSection() {
                   key={info.title}
                   className="reveal bg-card border border-border rounded-md p-6 shadow-card hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-300"
                 >
-                  <div className="w-10 h-10 rounded-sm bg-gradient-gold flex items-center justify-center mb-4">
-                    <Icon className="w-5 h-5 text-primary" aria-hidden="true" />
+                  <div className="w-10 h-10 rounded-sm bg-gradient-dark flex items-center justify-center mb-4">
+                    <Icon className="w-5 h-5 text-white" aria-hidden="true" />
                   </div>
                   <h3 className="font-body font-semibold text-foreground text-sm mb-2">
                     {info.title}

@@ -12,6 +12,7 @@ import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import { LogoMarquee } from "@/components/LogoMarquee";
 
 const Index = () => {
   useScrollReveal();
@@ -32,6 +33,7 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <FeaturedProducts />
+        <LogoMarquee />
         <CategoriesSection />
         <WhyChooseUs />
         <TestimonialsSection />
