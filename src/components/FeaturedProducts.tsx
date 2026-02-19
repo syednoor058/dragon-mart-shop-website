@@ -61,7 +61,7 @@ export function FeaturedProducts() {
   return (
     <section
       id="products"
-      className="section-padding bg-secondary/40"
+      className="section-padding bg-[#F9F6F3]"
       aria-label="Featured products"
     >
       <div className="container-luxury">

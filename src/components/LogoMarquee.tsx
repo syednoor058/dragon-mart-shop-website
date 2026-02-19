@@ -42,7 +42,7 @@ export const LogoMarquee = () => {
     { id: 10, img: raymond },
   ];
   return (
-    <div className="size-full">
+    <div className="size-full bg-white">
       <div className="py-6 lg:py-10 bg-gold mb-4">
         <Marquee>
           <MarqueeContent>

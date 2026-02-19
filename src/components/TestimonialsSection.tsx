@@ -61,7 +61,7 @@ function StarRating({ rating }: { rating: number }) {
 
 export function TestimonialsSection() {
   return (
-    <section id="reviews" className="section-padding bg-secondary/30" aria-label="Customer reviews">
+    <section id="reviews" className="section-padding bg-[#F8F7F5]" aria-label="Customer reviews">
       <div className="container-luxury">
         {/* Header */}
         <div className="text-center mb-14 reveal">

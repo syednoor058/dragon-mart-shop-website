@@ -47,7 +47,7 @@ export function AboutSection() {
                 { value: "500+", label: "Styles Available" },
                 { value: "Dragon Mart", label: "Dubai's Best" },
               ].map((stat) => (
-                <div key={stat.label} className="text-center p-4 rounded-xl bg-secondary border border-border">
+                <div key={stat.label} className="text-center p-4 rounded-sm bg-secondary border border-border">
                   <p className="font-heading text-xl font-bold text-foreground">{stat.value}</p>
                   <p className="font-body text-xs text-muted-foreground mt-1">{stat.label}</p>
                 </div>

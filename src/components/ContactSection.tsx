@@ -36,7 +36,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="section-padding bg-secondary/30"
+      className="section-padding bg-[#F8F7F5]"
       aria-label="Contact and location"
     >
       <div className="container-luxury">
@@ -94,7 +94,7 @@ export function ContactSection() {
           </div>
 
           {/* Map embed */}
-          <div className="reveal rounded-2xl overflow-hidden shadow-luxury border border-border aspect-[4/3]">
+          <div className="reveal rounded-md overflow-hidden shadow-luxury border border-border aspect-[4/3]">
             <iframe
               title="Dragon Mart Dubai location map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.5!2d55.4136!3d25.1873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f65b8cbf3d3fd%3A0x3e1b1b2b2b3b4b5b!2sDragon%20Mart%2C%20Dubai!5e0!3m2!1sen!2sae!4v1617000000000!5m2!1sen!2sae"
