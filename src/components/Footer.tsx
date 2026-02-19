@@ -101,7 +101,7 @@ export function Footer() {
                 📍 Dragon Mart, International City, Dubai, UAE
               </p>
               <p className="font-body text-sm text-primary-foreground/60">
-                📱 +971 50 123 4567
+                📱 +971 50 394 1326
               </p>
               <p className="font-body text-sm text-primary-foreground/60">
                 🕐 Open daily 10:00 AM – 10:00 PM
