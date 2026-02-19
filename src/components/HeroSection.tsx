@@ -46,8 +46,8 @@ export function HeroSection() {
           className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight mb-6 animate-fade-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Wear the
-          <span className="block text-gradient-gold">Extraordinary.</span>
+          Crafter for the
+          <span className="block text-gradient-gold">Confident.</span>
         </h1>
 
         {/* Subheadline */}
@@ -114,7 +114,7 @@ export function HeroSection() {
               loop
             />
             <p className="absolute -left-20 md:-left-24 lg:-left-28 top-1/2 -translate-y-1/2 text-sm max-w-40 z-12 text-end text-white/75 animate-fade-up" style={{ animationDelay: "0.5s" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing.
+              Premium bags, sneakers, watches & accessories from Dragon Mart, Dubai.
             </p>
           </div>
         </div>

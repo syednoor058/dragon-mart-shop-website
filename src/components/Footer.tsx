@@ -25,10 +25,10 @@ export function Footer() {
           <div className="md:col-span-1">
             <div className="mb-4">
               <span className="font-heading text-2xl font-bold tracking-widest">
-                LUXE<span className="text-gold">MART</span>
+                Elite <span className="text-gold">Avenue</span>
               </span>
               <p className="text-[10px] tracking-[0.3em] text-gold font-body uppercase mt-1">
-                Dragon Mart · Dubai
+                Luxury Fashion House
               </p>
             </div>
             <p className="font-body text-sm text-primary-foreground/60 leading-relaxed max-w-xs mb-6">

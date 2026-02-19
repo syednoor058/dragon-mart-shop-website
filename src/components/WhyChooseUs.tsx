@@ -14,7 +14,7 @@ const features = [
   {
     icon: <HandShake />,
     title: "Trusted by Thousands",
-    desc: "Over 10,000 happy customers have made LUXEMART their go-to fashion destination in Dubai.",
+    desc: "Over 10,000 happy customers have made Elite Avenue their go-to fashion destination in Dubai.",
   },
   {
     icon: <Location />,
@@ -35,13 +35,13 @@ const features = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-us" className="section-padding bg-primary" aria-label="Why choose LUXEMART">
+    <section id="why-us" className="section-padding bg-primary" aria-label="Why choose Elite Avenue">
       <div className="container-luxury">
         {/* Header */}
         <div className="text-center mb-14 reveal">
-          <span className="text-gold font-body text-sm tracking-[0.3em] uppercase font-medium">Why LUXEMART</span>
+          <span className="text-gold font-body text-sm tracking-[0.3em] uppercase font-medium">Why Elite Avenue</span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground mt-3 mb-4">
-            The LUXEMART Difference
+            The Elite Avenue Difference
           </h2>
           <p className="font-body text-primary-foreground/60 max-w-xl mx-auto">
             We don't just sell accessories — we help you tell your story through fashion.

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const WHATSAPP_NUMBER = "971501234567";
+const WHATSAPP_NUMBER = "971503941326";
 
 export function getWhatsAppLink(message?: string): string {
   const text = message || "Hello! I'm interested in your fashion accessories at Dragon Mart. Can you help me?";

@@ -42,13 +42,13 @@ export function Navbar() {
             href="#hero"
             onClick={(e) => { e.preventDefault(); handleNav("#hero"); }}
             className="flex flex-col leading-none group"
-            aria-label="LUXE MART - Home"
+            aria-label="Elite Avenue - Home"
           >
             <span className="font-heading text-xl font-bold tracking-widest text-primary-foreground">
-              LUXE<span className="text-gold">MART</span>
+              Elite <span className="text-gold">Avenue</span>
             </span>
             <span className="text-[9px] tracking-[0.25em] text-gold-light font-body uppercase mt-0.5">
-              Dragon Mart · Dubai
+              Luxury Fashion House
             </span>
           </a>
 

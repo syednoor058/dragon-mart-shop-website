@@ -5,7 +5,7 @@ const testimonials = [
     avatar: "FA",
     rating: 5,
     review:
-      "I discovered LUXEMART while shopping at Dragon Mart and I'm obsessed! The bag collection is incredible — designer quality at a fraction of the price. My friends always ask where I shop.",
+      "I discovered Elite Avenue while shopping at Dragon Mart and I'm obsessed! The bag collection is incredible — designer quality at a fraction of the price. My friends always ask where I shop.",
   },
   {
     name: "Omar Khalid",
@@ -21,7 +21,7 @@ const testimonials = [
     avatar: "PS",
     rating: 5,
     review:
-      "Bought a stunning watch for my husband from LUXEMART. The quality is exceptional and the price was very reasonable. Will definitely be coming back for more gifts.",
+      "Bought a stunning watch for my husband from Elite Avenue. The quality is exceptional and the price was very reasonable. Will definitely be coming back for more gifts.",
   },
   {
     name: "Ahmed Hassan",
@@ -29,7 +29,7 @@ const testimonials = [
     avatar: "AH",
     rating: 5,
     review:
-      "Visited Dragon Mart specifically for LUXEMART after seeing them on Instagram. Did not disappoint — amazing sunglasses collection and the staff gave great style advice.",
+      "Visited Dragon Mart specifically for Elite Avenue after seeing them on Instagram. Did not disappoint — amazing sunglasses collection and the staff gave great style advice.",
   },
   {
     name: "Layla Benali",
@@ -45,7 +45,7 @@ const testimonials = [
     avatar: "RP",
     rating: 5,
     review:
-      "Messaged them on WhatsApp and got a personalised recommendation within minutes. The bag arrived exactly as described. Absolutely recommend LUXEMART!",
+      "Messaged them on WhatsApp and got a personalised recommendation within minutes. The bag arrived exactly as described. Absolutely recommend Elite Avenue!",
   },
 ];
 
@@ -70,7 +70,7 @@ export function TestimonialsSection() {
             What Dubai Says
           </h2>
           <p className="font-body text-muted-foreground max-w-xl mx-auto">
-            Thousands of satisfied customers across Dubai and the UAE trust LUXEMART for their fashion needs.
+            Thousands of satisfied customers across Dubai and the UAE trust Elite Avenue for their fashion needs.
           </p>
           {/* Aggregate rating */}
           <div className="flex items-center justify-center gap-2 mt-5">

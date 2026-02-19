@@ -5,7 +5,7 @@ const faqs = [
   {
     question: "Do you sell original and authentic products?",
     answer:
-      "Yes, absolutely. At LUXEMART, we are committed to quality and authenticity. Every product in our collection is carefully sourced and quality-checked to ensure you receive exactly what you see — no compromises.",
+      "Yes, absolutely. At Elite Avenue, we are committed to quality and authenticity. Every product in our collection is carefully sourced and quality-checked to ensure you receive exactly what you see — no compromises.",
   },
   {
     question: "Where exactly are you located?",
@@ -78,7 +78,7 @@ export function FAQSection() {
             Got Questions?
           </h2>
           <p className="font-body text-muted-foreground">
-            Everything you need to know about LUXEMART and how we work.
+            Everything you need to know about Elite Avenue and how we work.
           </p>
         </div>
 

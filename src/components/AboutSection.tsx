@@ -11,14 +11,14 @@ export function AboutSection() {
             <div className="relative overflow-hidden rounded-sm shadow-luxury">
               <img
                 src={aboutImg}
-                alt="LUXEMART boutique interior at Dragon Mart Dubai – premium fashion accessories display"
+                alt="Elite Avenue boutique interior at Dragon Mart Dubai – premium fashion accessories display"
                 className="w-full h-[420px] md:h-[520px] object-cover group-hover:scale-105 transition-transform duration-700"
                 loading="lazy"
               />
               {/* Overlay badge */}
-              <div className="absolute bottom-6 left-6 bg-primary/90 backdrop-blur-sm text-primary-foreground px-5 py-3 rounded-xl shadow-luxury">
-                <p className="font-heading text-2xl font-bold text-gold">5+</p>
-                <p className="font-body text-xs text-primary-foreground/70 tracking-wider uppercase mt-0.5">Years in Dubai</p>
+              <div className="absolute bottom-6 left-6 bg-primary/90 backdrop-blur-sm text-primary-foreground px-5 py-3 rounded-sm shadow-luxury">
+                <p className="font-heading text-2xl font-bold text-gold">2026</p>
+                <p className="font-body text-xs text-primary-foreground/70 tracking-wider uppercase mt-0.5">Foundation Year</p>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ export function AboutSection() {
             </div>
 
             <p className="font-body text-muted-foreground text-base leading-relaxed">
-              Nestled in the heart of Dragon Mart — Dubai's iconic retail destination — LUXEMART was born from a simple belief: <strong className="text-foreground font-medium">everyone deserves to look extraordinary</strong>. We curate the finest fashion accessories from around the world and bring them to you at prices that redefine luxury.
+              Nestled in the heart of Dragon Mart — Dubai's iconic retail destination — Elite Avenue was born from a simple belief: <strong className="text-foreground font-medium">everyone deserves to look extraordinary</strong>. We curate the finest fashion accessories from around the world and bring them to you at prices that redefine luxury.
             </p>
 
             <p className="font-body text-muted-foreground text-base leading-relaxed">
@@ -43,9 +43,9 @@ export function AboutSection() {
             {/* Stats row */}
             <div className="grid grid-cols-3 gap-4 pt-4">
               {[
-                { value: "10,000+", label: "Happy Customers" },
-                { value: "500+", label: "Styles Available" },
-                { value: "Dragon Mart", label: "Dubai's Best" },
+                { value: "2000+", label: "Quality Products" },
+                { value: "24/7", label: "Styles Available" },
+                { value: "100%", label: "Satisfaction" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center p-4 rounded-sm bg-secondary border border-border">
                   <p className="font-heading text-xl font-bold text-foreground">{stat.value}</p>

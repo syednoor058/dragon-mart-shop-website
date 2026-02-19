@@ -9,24 +9,23 @@ const storeInfo = [
   {
     icon: Phone,
     title: "Phone / WhatsApp",
-    lines: ["+971 50 123 4567"],
-    link: "https://wa.me/971501234567",
+    lines: ["+971 50 394 1326"],
+    link: "https://wa.me/971503941326",
   },
   {
     icon: Clock,
     title: "Opening Hours",
     lines: [
-      "Mon – Thu: 10:00 AM – 10:00 PM",
-      "Fri – Sat: 10:00 AM – 11:00 PM",
-      "Sunday: 11:00 AM – 10:00 PM",
+      "Mon - Fri: 10:00 AM – 10:00 PM",
+      "Sat: 10:00 AM – 08:00 PM",
+      "Sun: 10:00 AM – 06:00 PM",
     ],
   },
   {
     icon: MessageSquareText,
     title: "WhatsApp Orders",
     lines: [
-      "Message us anytime for availability,",
-      "photos, and WhatsApp orders.",
+      "Message us anytime for availability, photos, and WhatsApp orders.",
     ],
     link: "https://wa.me/971501234567?text=Hi! I want to place a WhatsApp order.",
   },
@@ -46,7 +45,7 @@ export function ContactSection() {
             Find Us
           </span>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mt-3 mb-4">
-            Visit LUXEMART
+            Visit Elite Avenue
           </h2>
           <p className="font-body text-muted-foreground max-w-xl mx-auto">
             Located in the heart of Dragon Mart — Dubai's iconic shopping
