@@ -104,7 +104,7 @@ export function Footer() {
                 📱 +971 50 394 1326
               </p>
               <p className="font-body text-sm text-primary-foreground/60">
-                🕐 Open daily 10:00 AM – 10:00 PM
+                🕐 Open time 10:00 AM – 11:00 PM
               </p>
             </div>
             <a

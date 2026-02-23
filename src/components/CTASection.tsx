@@ -49,11 +49,7 @@ export function CTASection() {
               Message Us Now
             </a>
             <a
-              href="#contact"
-              onClick={(e) => {
-                e.preventDefault();
-                document.querySelector("#contact")?.scrollIntoView({ behavior: "smooth" });
-              }}
+              href="https://share.google/qO1IoroeSQFKJSKX3" target="_blank"
               className="font-body font-medium text-primary-foreground/90 hover:text-gold transition-colors duration-200 text-sm underline underline-offset-4"
             >
               Get Directions →
